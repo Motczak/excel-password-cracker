@@ -44,10 +44,6 @@ def try_password(password):
         print(password)
 
 
-# setting 1 - runs just the wordlist
-# setting 2 - computes different permutations adds 1 and 2 to the end of string
-# setting 3 - setting 2 + capitalizes first letter and adds "$" at the end
-
 def get_password(line, setting):
     global found_password
     if setting == 1:
